@@ -1,0 +1,41 @@
+{
+  "name": "mockApi",
+  "description": "create mock data for use in a mock API. (relies on www.mockaroo.com)",
+  "version": "0.0.1",
+  "homepage": "https://github.com/joel-kornbluh/grunt-contrib-mockApi",
+  "author": {
+    "name": "joel-kornbluh",
+    "email": "joelkornbly@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joel-kornbluh/grunt-contrib-mockApi"
+  },
+  "bugs": {
+    "url": "https://github.com/joel-kornbluh/grunt-contrib-mockApi/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/joel-kornbluh/grunt-contrib-mockApi/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
